@@ -1,19 +1,20 @@
 ## Projeto Spring Boot 2.4.x contendo um CRUD completo de web services REST para acessar um recurso de clientes, contendo cinco operações básicas:
 
-•	Busca paginada de recursos
-•	Busca de recurso por id
-•	Inserir novo recurso
-•	Atualizar recurso
-•	Deletar recurso
++	Busca paginada de recursos
++	Busca de recurso por id
++	Inserir novo recurso
++	Atualizar recurso
++	Deletar recurso
 
 O projeto está configurado para um ambiente de testes acessando o banco de dados H2, utilizando Maven como gerenciador de dependência, e Java 11 como linguagem.
 
 #  especificação da entidade Client é mostrada a seguir:
 
-![Image](https://github.com/marciorbarcellos/dscatalog-bootcamp-devsuperior/blob/master/backend/img/entidadeClient.jpg)
+![Image](https://github.com/marciorbarcellos/dsclient-bootcamp-devsuperior/blob/master/backend/img/entidadeClient.jpg)
 
 # Seed com dados fictícios de clientes
 
+```
 INSERT INTO TB_CLIENT (ID, NAME, CPF, INCOME, BIRTH_DATE, CHILDREN, created_At) VALUES (null, 'Maria Silva de Souza', '063.642.554-63', 7500.00, '2018-07-01T14:18:05.361Z', 2, NOW());
 INSERT INTO TB_CLIENT (ID, NAME, CPF, INCOME, BIRTH_DATE, CHILDREN, created_At) VALUES (null, 'Leonardo Silva', '012.617.852-35', 8200.00, '2014-01-15T23:28:56.782Z', 1, NOW());
 INSERT INTO TB_CLIENT (ID, NAME, CPF, INCOME, BIRTH_DATE, CHILDREN, created_At) VALUES (null, 'Martin Danton', '001.246.567-77', 8650.00, '2020-05-21T18:02:26.317Z', 3, NOW());
@@ -39,7 +40,7 @@ INSERT INTO TB_CLIENT (ID, NAME, CPF, INCOME, BIRTH_DATE, CHILDREN, created_At) 
 INSERT INTO TB_CLIENT (ID, NAME, CPF, INCOME, BIRTH_DATE, CHILDREN, created_At) VALUES (null, 'Alvaro Americano', '675.370.562-68', 8800.00, '2018-02-03T08:25:12.632Z', 2, NOW());
 INSERT INTO TB_CLIENT (ID, NAME, CPF, INCOME, BIRTH_DATE, CHILDREN, created_At) VALUES (null, 'Silvia Brito Borges', '635.030.502-67', 5200.00, '2011-02-06T12:21:08.835Z', 0, NOW());
 INSERT INTO TB_CLIENT (ID, NAME, CPF, INCOME, BIRTH_DATE, CHILDREN, created_At) VALUES (null, 'Paulo Cesar Milbert', '312.589.261-05', 4700.00, '2014-01-03T08:12:05.052Z', 1, NOW());
-
+```
 
 # Testes manuais no Postman
 
