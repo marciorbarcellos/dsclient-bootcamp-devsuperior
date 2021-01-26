@@ -8,7 +8,7 @@
 
 O projeto está configurado para um ambiente de testes acessando o banco de dados H2, utilizando Maven como gerenciador de dependência, e Java 11 como linguagem.
 
-#  especificação da entidade Client é mostrada a seguir:
+# Especificação da entidade Client é mostrada a seguir:
 
 ![Image](https://github.com/marciorbarcellos/dsclient-bootcamp-devsuperior/blob/master/backend/img/entidadeClient.jpg)
 
